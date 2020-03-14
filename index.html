@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!-- Responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <!-- End Responsive -->
+    <link rel=icon href="./assets/favicon.ico" sizes="32x32" type="image/vnd.microsoft.icon">
+    <link rel="stylesheet" href="https://s3-us-west-1.amazonaws.com/patterns.esri.com/files/calcite-web/1.2.5/css/calcite-web.min.css">
+    <link rel="stylesheet" href="https://js.arcgis.com/4.14/esri/css/main.css">
+    <link rel="stylesheet" href="./styles/main.css">
+    <script src="./app/dojo.js"></script>
+    <script src="https://js.arcgis.com/4.14/"></script>
+    <script>require(["Application/Main"],function(Application){
+      const app = new Application();
+    });</script>
+  </head>
+  <body class="">
+    <div id="main-container">
+      <div id="view-container"></div>
+    </div>
+  </body>
+</html>
