@@ -233,7 +233,7 @@ define([
           "LABEL_FIELD": "NAME_0",
           "AREA_FIELD": "Shape__Area",
           "initialCountryISOCode": "USA",
-          "useLargestFeature": ["USA", "RUS"]
+          "useLargestFeature": []
         }
       };
 
